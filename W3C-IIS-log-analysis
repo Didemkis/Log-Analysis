@@ -1,14 +1,8 @@
 W3C ISS LOG ANALİZ
 
-** IIS Günlükleri, bir web sunucusunda gerçekleşen etkinliklere dair ayrıntılı bilgileri içeren bir veri kümesidir. W3C günlük dosyası formatı, NCSA dosya formatına kıyasla daha fazla veri depolayabilen, ASCII tabanlı, virgülle ayrılmış bir formattır. Bu format, çeşitli alanları yakalayarak istekler arasındaki farkları belirlemede kullanılır.**
+IIS Günlükleri, bir web sunucusunda gerçekleşen etkinliklere dair ayrıntılı bilgileri içeren bir veri kümesidir. W3C günlük dosyası formatı, NCSA dosya formatına kıyasla daha fazla veri depolayabilen, ASCII tabanlı, virgülle ayrılmış bir formattır. Bu format, çeşitli alanları yakalayarak istekler arasındaki farkları belirlemede kullanılır.
 
 W3C günlük dosyasındaki her giriş, günlük aracının istekleri birbirinden ayırt etmesine olanak tanıyan benzersiz bir tanımlayıcı içerir. Bu tanımlayıcı, istek satırı ve gövde metni gibi isteğin farklı bölümlerini ayırmak için de kullanılabilir.
-
-Günlük dosyasının önemli alanları şunlardır:
-- Tarih ve Saat: İsteğin ne zaman yapıldığını gösterir.
-- cs-ip: Web sunucusuna erişen istemcinin IP adresi.
-- cs-kullanıcı adı: İsteği yapan kullanıcının adı.
-- cs-uri-stem: İstemcinin talep ettiği URI.
 
 Örneğin, bir istemci statik bir dosyada saklanan bir web sayfasına erişim istediğinde, cs-uri-stem alanı istemci tarafından talep edilen dosyanın ne olduğunu belirtir. Bu alanlar, sunucu günlüklerinde kötü amaçlı kodların veya diğer anormalliklerin tespit edilmesinde çok değerlidir.
 
