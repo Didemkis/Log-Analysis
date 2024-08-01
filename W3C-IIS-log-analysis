@@ -1,4 +1,4 @@
-**W3C ISS LOG ANALİZ**
+W3C ISS LOG ANALİZ
 
 IIS Günlükleri, bir web sunucusunda gerçekleşen etkinliklere dair ayrıntılı bilgileri içeren bir veri kümesidir. W3C günlük dosyası formatı, NCSA dosya formatına kıyasla daha fazla veri depolayabilen, ASCII tabanlı, virgülle ayrılmış bir formattır. Bu format, çeşitli alanları yakalayarak istekler arasındaki farkları belirlemede kullanılır.
 
