@@ -1,8 +1,8 @@
-## W3C ISS LOG ANALİZ
+## W3C IIS LOG ANALİZ
 
-### W3C ISS Log Nedir?
+### W3C IIS Log Nedir?
 
-W3C ISS (Internet Security Systems) logları, bir ağ veya sistem üzerinde güvenlik olaylarını ve faaliyetlerini izlemek, analiz etmek ve yönetmek için kullanılan log kayıtlarıdır. Bu loglar, ISS çözümlerinin sağladığı güvenlik verilerini içeren bir formatta düzenlenmiştir. W3C formatı, web standartları organizasyonu tarafından belirlenen ve veri paylaşımı ve işlenebilirliği açısından tutarlı bir biçim sağlar.
+W3C IIS logları, Microsoft Internet Information Services (IIS) web sunucusu tarafından oluşturulan günlük (log) dosyalarıdır. Bu günlükler, web sunucusunun çeşitli işlemlerini ve HTTP isteklerini detaylı bir şekilde kayıt altına alır. 
 
 W3C günlük dosyasındaki her giriş, günlük aracının istekleri birbirinden ayırt etmesine olanak tanıyan benzersiz bir tanımlayıcı içerir. Bu tanımlayıcı, istek satırı ve gövde metni gibi isteğin farklı bölümlerini ayırmak için de kullanılabilir.
 
