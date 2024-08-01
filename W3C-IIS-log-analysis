@@ -19,12 +19,13 @@ Ayrıca, cs-uri-stem alanı kullanıcının hangi tarayıcıyı kullandığını
 
 #Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
 1. LOG : 
+```
 #Software: Microsoft Internet Information Services 10.0
 #Version: 1.0
 #Date: 2024-08-01 15:45:00
 #Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
 2024-08-01 15:45:00 fe80::abcd:1234:efgh:5678%1 RPC_IN_DATA /rpc/rpcproxy.dll 2e5038fc-7891-45cd-93fe-gh90j21k030h@test.com:7001&CorrelationID=<empty>;&RequestId=22e7b89b-8d45-5g54-9511-be34d215bb73&cafeReqId=22e7b89b-8d45-5g54-9511-be34d215bb73; 443 TEST\HealthMailbox1234567 fe80::abcd:1234:efgh:5678%1 MSRPC - 503 1 1 9123
-
+```
 
 ANALİZ: 
     Yazılım: Microsoft Internet Information Services 10.0
